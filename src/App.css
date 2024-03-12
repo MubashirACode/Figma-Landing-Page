@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  margin: 20px;
+
+
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav img {
+ 
+  width: 20%;
+ gap: 10px;
+
+  height: 40%;
+  border-radius: 10px;
+
+}
+
+.nav span {
+  margin: 10px 100px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 0px 10%;
+  list-style: none;
+}
+
+nav li {
+  display: inline-flex;
+  align-items: center;
+  margin: 20px;
+}
+
+
+.btn {
+
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn button {
+  border-radius: 5px;
+  gap: 20px;
+  margin: 0px 10px;
+  width: 60px;
+  height: 30px;
+  border: none;
+  color: green;
+
+}
+
+.btn .backgreen {
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(107, 240, 107);
+}
+
+
+.mainhero {
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  display: flex;
+  width: 70%;
+  height: 100%;
+  margin: 0 350px;
+
+}
+
+.childhero1 {
+  width: 100%;
+  font-size: 20px;
+}
+
+.childhero1 p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.childhero1 span {
+  color: rgb(79, 241, 79)
+}
+
+.childhero1 button {
+  margin-top: 20px;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(107, 240, 107);
+}
+
+.childhero2 img {
+  width: 80%;
+  text-align: end;
+
+}
+
+.main {
+  margin: 20px;
+  text-align: center;
+}
+
+.main p {
+  margin: 10px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.main h1 {
+  font-size: 40px;
+}
+
+.iconslanguage {
+  text-align: center;
+  font-size: 50px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.community {
+  text-align: center;
+  margin: 50px;
+}
+
+.community h1 {
+  font-size: 40px;
+}
+
+.community p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+
+.cards {
+
+
+  width: 80%;
+
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0px 0px 150px;
+  text-align: center;
+
+
+}
+
+.card {
+  width: calc(100% - 100px);
+
+  margin: 20px;
+}
+
+.card h3 {
+  font-size: 30px;
+
+}
+
+.card p {
+  font-size: 20px;
+}
+.imageflex img{
+  width:100%;
+
+}
+.flex2{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  align-items: center;
+ padding: 20px; 
+}
+.flexcontent{
+  padding: 20px;
+  margin: 20px;
+}
+
+.flexcontent p{
+  margin: 20px 0 0 0;
+}
+.flexcontent button{
+  margin: 20px 0 0 0;
+  border: none;
+  background-color: rgb(107, 240, 107);
+  width: 15%;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+
+.allcustomer{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ margin: 150px;
+ 
+}
+
+.customericon{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+  margin: 20px 0 0 0;
+}
+.contentcustomer{
+  margin: 50px;
+}
+.contentcustomer h4{
+  margin-top: 20px;
+  color:rgb(107, 240, 107) ;
+  
+}
+
+.contentcustomer .p{
+  margin-top: 20px;
+  
+}
+
+
+.softwarecompany img{
+width: 100%;
+
+
+}
+.imgcustomer img{
+  width: 70vh;
+  border-radius: 10px;
+}
+.imgcustomer{
+  justify-content: space-between;
+}
+.customericon button{
+  border: transparent;
+  color:rgb(107, 240, 107) ;
+border-radius: 5px;
+  width: 23vh;
+  margin-top: -10px;
+  height: 50px;
+  text-align: center;
+
+  align-items: center;
+}
+.customericon button i{
+  font-size: 20px;
+ 
+}
+
+
+.booking  span{
+  display: flex;
+}
+.booking{
+  text-emphasis: none;
+
+}
+
+
+.helpinglocal{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.backgroundcolor{
+
+  background-color: var(--neutral-silver, #F5F7FA);
+  height: 40vh;
+  
+  
+
+}
+
+.bussiness{
+margin: 120px 120px ;
+
+}
+/* member1 Start*/
+.members{
+  margin: 100px 0 0 0 ;
+}
+.members p{
+  text-align: center;
+}
+
+  .booking i{
+  
+  color: rgb(107, 240, 107);
+  font-size: 30px;
+}
+
+.booking p{
+  font-size: 20px;
+  color: black;
+}
+.booking{
+  padding: 0px 0px 20px 0px;
+}
+.booking b{
+  color: black;
+}
+
+/* member1 End */
+
+/* member 2 start */
+.members2{
+  margin: 100px;
+}
+.members2 p{
+  text-align: center;
+}
+
+  .booking1 i{
+  
+  color:rgb(107, 240, 107) ;
+  font-size: 30px;
+}
+.booking1  b{
+  color: black;
+}
+.booking1 p{
+  font-size: 20px;
+  color: black;
+}
+.booking1{
+  padding: 0px 0px 20px 0px;
+}
+/* member 2 End */
+
+
+
+.flex3{
+    display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  align-items: center;
+ padding: 20px; 
+}
+
+
+.imageflex1 img{
+  width:100%;
+
+}
+
+.flexcontent1{
+  padding: 20px;
+  margin: 20px;
+}
+
+.flexcontent1 button{
+  margin: 20px 0 0 0;
+  border: none;
+  background-color: rgb(107, 240, 107);
+  width: 15%;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+
+
+.footerending{
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  margin: 0px 350px;
+
+}
+
+.footercards{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 70%;
+  margin: 10px 200px;
+}
+
+.footercard{
+
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #989898,
+               -20px -20px 60px #ffffff;
+  margin: 40px;
+  width: 100%;
+  height: 100px;
+}
+.footercard .btn1{
+   margin:40px;
+   padding: 10px;
+   border: none;
+   color:rgb(46, 236, 46) ;
+}
+.footercard .btn2{
+   margin:20px;
+   padding: 10px;
+   border: none;
+   color:rgb(43, 245, 43) ;
+}
+.footercard .btn3{
+   margin:35px;
+   padding: 10px;
+   border: none;
+   color:rgb(67, 240, 67) ;
+}
+
+.footercard img{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+
+}
+.footercard .images{
+  width: 250px;
+}
+.demo{
+  text-align: center;
+
+  margin: 200px;
+}
+.demo button{
+  margin-top: 20px;
+  border: none;
+  color:rgb(67, 240, 67) ;
+  padding: 10px;
+}
+
+
+.footercompany{
+  
+
+   
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+  height: 200px;
+}
+
+.footerlogo{
+margin: 10px;
+ 
+ padding-left: 50px;
+ padding-bottom: -300px;
+
+}
+.footersupport input{
+  border: none;
+  text-align: center;
+  margin: 10px 0px 0px 0px ;
+  border-radius: 10px;
+  border-color: #ca1818;
+  border: 1px solid;
+  padding: 10px;
+}
+.footersupport{
+  list-style:none ;
+  text-decoration: none;
+  margin: 20px 0px 0px 0px ;
+  text-align: start;
+  padding: 10px;
+}
+.footersupport li{
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 900;
+}
+.footerlogo span{
+  font-size: 30px;
+  font-weight: 800;
+}
+    
+.footerlogo i{
+
+  margin: 20px ;
+  font-size: 30px;
+
+  
+
+}
